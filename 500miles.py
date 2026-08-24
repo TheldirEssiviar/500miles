@@ -17,7 +17,7 @@ daysGone = daysElapsed.days
 yearPercent = daysGone/365
 
 print("Today's date is", str(curDate) + ".")
-print(daysGone, "days have gone by in 2021.")
+print(daysGone, "days have gone by in", str(datetime.now().year))
 
 #input number of miles run (milesRun)
 #handle non-numbers gracefully
